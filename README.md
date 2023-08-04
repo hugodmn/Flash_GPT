@@ -1,27 +1,29 @@
-# Projet Home Assistant avec ChatGPT
+# Home Assistant Project with ChatGPT
 
-Ce projet vise à créer un Home Assistant connecté à ChatGPT, permettant aux utilisateurs d'interagir avec le système en utilisant une commande vocale ("Hey Flash"). Le Home Assistant pourra répondre à une variété de requêtes formulées par l'utilisateur en utilisant le traitement du langage naturel fourni par le modèle ChatGPT d'OpenAI.
+This project aims to create a Home Assistant connected to ChatGPT, allowing users to interact with the system using a wake word ("Hey FlashMate"). The Home Assistant will be able to respond to a variety of user queries using natural language processing provided by the OpenAI ChatGPT model.
 
+## Prerequisites
 
-## Prérequis
+Before getting started, make sure you have the following elements:
 
-Avant de commencer, assurez-vous d'avoir les éléments suivants :
-
-- Raspberry Pi (de préférence Raspberry Pi 4 ou supérieur)
-- Microphone USB ou un module microphone compatible avec Raspberry Pi
-- Haut-parleur ou un module audio compatible avec Raspberry Pi
-- Connexion Internet active
-- Compte OpenAI pour accéder à l'API de ChatGPT
-- Environnement Python avec les dépendances nécessaires (liste dans `requirements.txt`)
+- Raspberry Pi (preferably Raspberry Pi 4 or higher)
+- USB microphone or a microphone module compatible with Raspberry Pi
+- Speaker or an audio module compatible with Raspberry Pi
+- Active Internet connection
+- OpenAI account to access the ChatGPT API
+- Python environment with necessary dependencies (listed in `requirements.txt`)
 
 ## TODO
 
-- [x] Mise en place du modèle de Wake Up Word Recognition pour détecter la commande vocale "Hey Flash".
-- [ ] Intégration du modèle de Voice Activity Detection pour identifier la fin de la requête de l'utilisateur.
-- [ ] Ajout du modèle de Speech-to-text pour convertir les commandes vocales en texte.
-- [ ] Intégration de l'API ChatGPT pour traiter les requêtes en texte et obtenir les réponses de ChatGPT.
-- [ ] Mise en place du modèle Text-to-speech pour lire les réponses de ChatGPT à haute voix.
-- [ ] Tests et débogage du système complet.
-- [ ] Amélioration de la gestion des erreurs et des exceptions.
-- [ ] Documentation complète du projet et mise à jour du README.
-- [ ] Création d'un GIF animé ou d'une vidéo de démonstration pour le README.
+- [ ] Generate a dataset using [howl](https://github.com/castorini/howl) for training the Wake Up Word system using the wake word "Hey FlashMate."
+- [ ] Train the Wake Up Word Recognition model on the generated dataset.
+- [ ] Integrate a Voice Activity Detection model to identify the end of the user's request.
+- [ ] Add the Speech-to-text model to convert voice commands into text.
+- [ ] Integrate the ChatGPT API to process text queries and obtain responses from ChatGPT.
+- [ ] Set up the Text-to-speech model to read ChatGPT responses aloud.
+- [ ] Test and debug the complete system.
+- [ ] Improve error and exception handling.
+- [ ] Provide comprehensive project documentation and update the README.
+- [ ] Create an animated GIF or demonstration video for the README.
+
+
