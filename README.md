@@ -15,7 +15,7 @@ Before getting started, make sure you have the following elements:
 
 ## TODO
 
-- [ ] Generate a dataset using [howl](https://github.com/castorini/howl) for training the Wake Up Word system using the wake word "Hey FlashMate."
+- [X] Generate a dataset using [howl](https://github.com/castorini/howl) for training the Wake Up Word system using the wake word "Hey FlashMate."
 - [ ] Train the Wake Up Word Recognition model on the generated dataset.
 - [ ] Integrate a Voice Activity Detection model to identify the end of the user's request.
 - [ ] Add the Speech-to-text model to convert voice commands into text.
